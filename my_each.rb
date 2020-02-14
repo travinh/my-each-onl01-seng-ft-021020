@@ -1,9 +1,9 @@
 def my_each(array) # put argument(s) here
   # code here
-  l=0 
-  while i<array.size 
-    yield array[l]
-    l+=1
+  k=0 
+  while k<array.size 
+    yield array[k]
+    k+=1
   end
   array
 end
